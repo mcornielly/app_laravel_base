@@ -54,7 +54,7 @@ cd new-project-name
 If you want to start with a fresh Git history, delete the .git folder:
 
 ```bash
-rm -rf .git
+Remove-Item -Recurse -Force .git
 ```
 
 Then, initialize a new Git repository:
